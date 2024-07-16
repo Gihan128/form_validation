@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    
+<form action="">
+    <table>
+        <tr>
+            <td><label for="">Name :</label></td>
+            <td><input type="text" name="name" id="name"></td>
+        </tr>
+    
+        <tr>
+            <td><label for="">Password :</label></td>
+            <td><input type="password" name="pwd" id="pwd"></td>
+        </tr>
+    
+        <tr>
+            <td><label for="">Retype Password :</label></td>
+            <td><input type="password" name="pwd" id="rpwd"></td>
+        </tr>
+    
+        <tr>
+            <td><label for="">Phone number:</label></td>
+            <td><input type="text" name="" id="phono" ></td>
+        </tr>
+    
+        <tr>
+            <td> 
+                <label for="">Gender :</label>
+            </td>
+    
+            <td> 
+                <label for="male">male</label>
+                <input type="radio" id="male" name="gender">
+                <label for="female">female</label>
+                <input type="radio" id="female" name="gender">
+            </td>
+        </tr>
+    
+        <tr>
+            <td><label for="">Country :</label></td>
+            <td>
+                <select name="" id="country">
+                    <option value="none" selected>Select</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="India">India</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="United State">United State</option>
+                </select>
+            </td>
+        </tr>
+    
+        <tr>
+            <td align="left" colspan="2"> <input type="checkbox" id="check"><label for="">I have accepted this</label></td>
+        </tr>
+    
+        <tr>
+            <td><input type="submit" value="Submit" onclick="validate()"></td>
+            <td align="right"> <input type="reset" value="Clear" ></td>
+        </tr>
+    </table>
+</form>
+
+    <script src="script.js"></script>
+</body>
+</html>
